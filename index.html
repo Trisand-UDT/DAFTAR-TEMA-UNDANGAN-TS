@@ -47,7 +47,7 @@
 
         body {
             background-color: #f5f7fb;
-            padding: 40px 20px;
+            padding: 10px 0px;
             display: flex;
             justify-content: center;
         }
@@ -72,11 +72,11 @@
 
         /* Desain Judul Kategori Elegan & Modern */
         .section-title {
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 700;
             color: #073b62;
             text-transform: uppercase;
-            letter-spacing: 2.5px; /* Jarak antar huruf estetis */
+            letter-spacing: 1.5px; /* Jarak antar huruf estetis */
             margin-bottom: 35px;
             text-align: center;
             position: relative;
@@ -86,7 +86,7 @@
         .section-title::after {
             content: '';
             display: block;
-            width: 50px;
+            width: 50%;
             height: 3px;
             background-color: #d4af37; /* Warna emas premium */
             margin: 10px auto 0 auto;
@@ -96,7 +96,7 @@
         /* Wadah utama pembungkus semua kartu */
         .container {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             flex-wrap: wrap; /* Otomatis turun ke bawah jika layar HP/kecil */
             justify-content: center;
             width: 100%;
@@ -104,11 +104,11 @@
 
         /* Gaya untuk setiap kotak / kartu */
         .card {
-            background: #ffffff;
-            border-radius: 16px;
-            border: 1px solid #e2e8f0;
-            padding: 15px;
-            width: 210px; /* Lebar standar kartu */
+            background: silver;
+            border-radius: 10px;
+            border: 1px groove gray;
+            padding: 5px;
+            width: 175px; /* Lebar standar kartu */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -126,17 +126,17 @@
         .card-image {
             width: 100%;
             height: auto;
-            border-radius: 12px;
+            border-radius: 7px;
             object-fit: cover;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         /* Gaya teks judul di bawah gambar */
         .card-title {
-            font-size: 14px; 
+            font-size: 12px; 
             font-weight: 600;
-            color: #4a5568; 
-            margin-bottom: 15px;
+            color: black; 
+            margin-bottom: 10px;
             text-align: center;
             line-height: 1.4;
         }
@@ -147,15 +147,15 @@
             background-color: #ffffff;
             color: #1a202c;
             border: 1px solid #3182ce; /* Border warna biru */
-            padding: 8px 12px;
-            font-size: 14px;
-            font-weight: 500;
-            border-radius: 6px;
+            padding: 7px 10px;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 7px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px; /* Jarak antara icon mata dan teks */
+            gap: 0px; /* Jarak antara icon mata dan teks */
             text-decoration: none; /* Menghilangkan garis bawah khas link */
             transition: all 0.2s ease;
         }
