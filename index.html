@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daftar Tema Undangan - TS-UDT</title>
+
+<!-- Pengaturan Pratinjau Sosial Media (WhatsApp, FB, IG, TikTok) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Daftar Tema Undangan">
+<meta property="og:site_name" content="TRISAND UDT">
+<meta property="og:description" content="Daftar Tema Undangan. Silakan Klik Untuk Membuka Daftar Tema Undangan.">
+
+<!-- Link Website Utama Anda -->
+<meta property="og:url" content="https://trisand-udt.github.io/DAFTAR-TEMA-UNDANGAN-TS/">
+<link rel="canonical" href="https://trisand-udt.github.io/DAFTAR-TEMA-UNDANGAN-TS/">
+
+<!-- FORMAT LENGKAP: Menghubungkan langsung ke folder gambar yang sudah Anda upload di GitHub -->
+<meta property="og:image" content="https://trisand-udt.github.io/DAFTAR-TEMA-UNDANGAN-TS/img/icon-logo/trisand-logo.png">
+<meta property="og:image:secure_url" content="https://trisand-udt.github.io/DAFTAR-TEMA-UNDANGAN-TS/img/icon-logo/trisand-logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Informasi Dasar Google -->
+<meta name="description" content="Daftar Tema Undangan. Silakan Klik Untuk Membuka Daftar Tema Undangan.">
+<meta name="keywords" content="TRISAND Undangan Digital, Semua Undangan Online, Hub No : 628990073730">
+<meta name="robots" content="index, follow">
+
+<!-- Logo Icon Web -->
+<link rel="apple-touch-icon" sizes="180x180" href="img/icon-logo/trisand-logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/icon-logo/trisand-logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/icon-logo/trisand-logo.png">
+
+
+<style>
+    @font-face {
+        font-family: 'Delius-Regular';
+        src: url('fonts/Delius-Regular.ttf');
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Delius-Regular', 'Segoe UI', sans-serif !important;
+    }
+
+    body {
+        /* Latar belakang arang gelap dengan ambient pancaran cahaya emas redup */
+        background: radial-gradient(circle at top right, #2c2514 0%, #0a0a0a 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+        min-height: 100vh;
+        position: relative;
+        box-sizing: border-box;
+        padding: 24px;
+    }
+
+    .wrapper {
+        max-width: 440px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(26, 22, 15, 0.75); /* Lapisan kaca dengan tone hangat */
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        padding: 45px 25px;
+        border-radius: 28px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(212, 175, 55, 0.15); /* Bingkai tipis warna emas */
+    }
+    
+    @property --angle {
+        syntax: '<angle>';
+        initial-value: 0deg;
+        inherits: false;
+    }
+
+    /* --- LOGO: BORDER BERPUTAR DENGAN TONE EMAS EKSKLUSIF --- */
+    .logo-container {
+        position: relative;
+        width: 140px; 
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 28px;
+        border-radius: 10px;
+        /* Menggunakan gradasi warna emas-perunggu yang mengalir tenang */
+        background: conic-gradient(from var(--angle), transparent 20%, #d4af37, #e2cb83, transparent 80%);
+        padding: 4px; 
+        animation: spinAngle 3s linear infinite;
+    }
+
+    @keyframes spinAngle {
+        from { --angle: 0deg; }
+        to { --angle: 360deg; }
+    }
+
+    .logo-inner {
+        width: 100%;
+        height: 100%;
+        background: #0a0a0a; /* Dasar hitam pekat agar logo kontras jelas */
+        border-radius: 7px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .logo-main {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 10px; 
+        filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.3));
+    }
+    
+    .main-title {
+        font-size: 24px;
+        font-weight: 900; 
+        color: #ffffff; 
+        text-align: center;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6); 
+    }
+    
+    .main-subtitle {
+        font-size: 14px;
+        color: #cbd5e1; 
+        text-align: center;
+        margin-bottom: 35px;
+        letter-spacing: 0.5px;
+        font-weight: 600; 
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .menu-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    /* --- TOMBOL MENU: HITAM SOLID DENGAN BORDER EMAS BERDENYUT --- */
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 18px 24px;
+        background: #111111; /* Latar Belakang Hitam Solid */
+        color: #ffffff; 
+        text-decoration: none;
+        border-radius: 16px;
+        font-size: 15px;
+        font-weight: 800; 
+        letter-spacing: 0.7px; /* Spasi huruf 0.7px tetap dipertahankan */
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        /* Animasi Gelombang Pendaran Cahaya Emas Konstan */
+        animation: neonGlowPulse 2.5s infinite ease-in-out;
+    }
+
+    /* Efek Border Dua Gradasi Emas Berdenyut Bergerak */
+    .menu-btn::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        padding: 2.5px; /* Ketebalan garis tepi border */
+        border-radius: 16px;
+        /* Aliran warna perunggu hingga emas murni yang anggun, tidak ramai warna-warni */
+        background: conic-gradient(from var(--angle), #d4af37, #4a3b11, #d4af37);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        animation: spinAngle 5s linear infinite; /* Garis tepi berputar dinamis */
+        transition: all 0.3s ease;
+    }
+
+    /* Efek Hover: Transformasi Penuh Menjadi Emas Klasik Solid & Mewah */
+    .menu-btn:hover {
+        transform: translateY(-4px) scale(1.01);
+        background: #d4af37; /* Latar berubah menjadi Emas Klasik saat di-hover */
+        color: #0a0a0a; /* Tulisan berubah menjadi hitam pekat agar kontras tajam */
+        box-shadow: 0 15px 30px rgba(212, 175, 55, 0.35), 
+                    0 0 40px rgba(212, 175, 55, 0.15);
+        animation: none; /* Menghentikan animasi denyut saat kursor fokus */
+    }
+
+    .menu-btn:hover::before {
+        background: #e2cb83; /* Bingkai luar mencerah saat di-hover */
+        animation: none;
+    }
+
+    /* Ikon FontAwesome otomatis berubah warna hitam saat tombol di-hover */
+    .menu-btn:hover i {
+        color: #0a0a0a !important;
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 6px rgba(10, 10, 10, 0.3));
+    }
+    
+    .menu-btn i {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+
+    /* --- DEFINISI ANIMASI EFEK EMAS --- */
+
+    /* Animasi Denyut Pancaran Cahaya Luar (Neon Gold Outer Glow Wave) yang Kalem */
+    @keyframes neonGlowPulse {
+        0%, 100% {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5),
+                        0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        50% {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3),
+                        0 0 25px rgba(212, 175, 55, 0.3); /* Pancaran Emas mengembang jelas dan lembut */
+        }
+    }
+</style>
+
+
+<div class="wrapper">
+    <div class="logo-container">
+        <div class="logo-inner">
+            <img class="logo-main" src="img/icon-logo/trisand-logo.png" alt="Logo TRISAND">
+        </div>
+    </div>
+    
+    <h1 class="main-title">Pilihan Tema Undangan</h1>
+    <p class="main-subtitle">Silakan Pilih Kategori Undangan Di Bawah ini :</p>
+
+    <!-- Menu Pilihan Halaman -->
+    <div class="menu-container">
+
+
+        <a href="file-halaman/pernikahan.html" class="menu-btn">
+            <i class="fa-solid fa-heart" style="color: #f43f5e;"></i> 
+            Tema Pernikahan
+        </a>
+        
+        <a href="file-halaman/khitanan.html" class="menu-btn">
+            <i class="fa-solid fa-child" style="color: #38bdf8;"></i> 
+            Tema Khitanan
+        </a>
+
+        <a href="file-halaman/aqiqah.html" class="menu-btn">
+            <i class="fa-solid fa-baby" style="color: #f472b6;"></i> 
+            Tema Aqiqah
+        </a>
+
+        <a href="file-halaman/ulang-tahun.html" class="menu-btn">
+            <i class="fa-solid fa-cake-candles" style="color: #fbbf24;"></i> 
+            Tema Ulang Tahun
+        </a>
+
+        <a href="file-halaman/buka-bersama.html" class="menu-btn">
+            <i class="fa-solid fa-moon" style="color: #34d399;"></i> 
+            Tema Buka Bersama
+        </a>
+
+
+    </div>
+</div>
+
+
+
+<br><br>
+
+<!--==============AWAL-FOOTER================--!>
+<div class="ts-iframe-wrapper" style="width: 100%; padding: 0; margin-top: 0px; margin-bottom: 0; line-height: 0; display: block; overflow: hidden; position: relative; z-index: 1;">
+
+<iframe id="footer" srcdoc="
+<style>
+        @font-face {
+            font-family: 'Delius-Regular';
+            src: url('fonts/Delius-Regular.ttf');
+            font-weight: auto;
+        }
+
+        /* PERUBAHAN TATA LETAK: Diubah menjadi flex-start agar konten langsung merapat ke atas, serta padding-top 10px untuk jarak yang pas */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 10px;
+            overflow: hidden;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Delius-Regular', Roboto !important;
+            font-style: auto;
+        }
+
+    /* 1. JUDUL ATAS (Efek Kilau Emas Berlian Mengalir) */
+    .footer-title {
+        font-size: 1rem;       
+        font-weight: 800;        
+        text-align: center;
+        letter-spacing: 2px;
+        margin: 0;
+        text-transform: uppercase; 
+        
+        background: linear-gradient(
+            90deg, 
+            #b5892b 0%, 
+            #fceeac 25%, 
+            #ffffff 50%, 
+            #fceeac 75%, 
+            #b5892b 100%
+        );
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        animation: aliranBerlianFooter 4s linear infinite;
+        
+        filter: drop-shadow(1px 1px 0px #000000)
+                drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.8));
+    }
+
+    /* 2. NAMA BRAND */
+    .footer-brand {
+        font-size: 1.2rem;       
+        font-weight: 800;        
+        text-align: center;
+        letter-spacing: 2px;
+        margin: 8px 0 2px 0;
+        text-transform: uppercase; 
+        
+        background: linear-gradient(
+            270deg, 
+            #ffffff 0%, 
+            #fbd38d 25%, 
+            #ffffff 50%, 
+            #ffd700 75%, 
+            #ffffff 100%
+        );
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        animation: aliranBerlianBrand 3.5s linear infinite;
+        
+        filter: drop-shadow(1px 1px 0px #000000)
+                drop-shadow(2px 2px 2px #000000)
+                drop-shadow(3px 3px 0px #000000)
+                drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.9));
+    }
+
+    @keyframes aliranBerlianFooter {
+        0% { background-position: 0% center; }
+        100% { background-position: 200% center; }
+    }
+
+    @keyframes aliranBerlianBrand {
+        0% { background-position: 200% center; }
+        100% { background-position: 0% center; }
+    }
+
+    /* 3. TEKS PETUNJUK */
+    .footer-hint {
+        font-size: 1.1rem;
+        color: #ffd700; 
+        font-weight: 800;
+        letter-spacing: 1px;
+        margin: 8px 0 15px 0;
+        text-shadow: 1px 1px 0px #000000, 2px 2px 3px rgba(0,0,0,0.9);
+    }
+
+    /* 4. AREA IKON SOSIAL MEDIA */
+    .footer-icons {
+        display: flex;
+        justify-content: center; 
+        gap: 20px;
+    }
+
+    .footer-icons a {
+        display: inline-block;
+        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        position: relative;
+    }
+
+    .footer-icons img {
+        width: 38px; 
+        height: 38px;
+        object-fit: contain;
+        filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.5));
+        transition: filter 0.3s ease;
+    }
+
+    .footer-icons a:hover {
+        transform: translateY(-8px) scale(1.15); 
+    }
+
+    .footer-icons a:hover img {
+        filter: drop-shadow(0px 0px 12px rgba(212, 175, 55, 0.8)) 
+                drop-shadow(0px 4px 8px rgba(0,0,0,0.6));
+    }
+</style>
+
+<footer style='text-align: center; width: 100%;'>
+    <div class='footer-container'>
+        <div>
+            <p class='footer-title'>Powered & Designed by</p>
+            <p class='footer-brand'>TRISAND UNDANGAN DIGITAL</p>
+            <p class='footer-hint'><em>klik icon untuk hubungi saya</em></p>
+        </div>
+        <div class='footer-icons'>
+            <a aria-label='Facebook'>
+                <img src='img/iconfooter/FB.png' alt='Facebook'>
+            </a>
+            <a aria-label='Instagram'>
+                <img src='img/iconfooter/IG.png' alt='Instagram'>
+            </a>
+            <a href='https://whatsapp.com' target='_blank' aria-label='WhatsApp'>
+                <img src='img/iconfooter/WA.png' alt='WhatsApp'>
+            </a>
+            <a aria-label='Youtube'>
+                <img src='img/iconfooter/YT.png' alt='Youtube'>
+            </a>
+        </div>
+    </div>
+</footer>
+
+" style="width: 100%; height: 170px !important; border: none; display: block; vertical-align: bottom; overflow: hidden; margin: 0; padding: 0;"></iframe>
+
+</div>
+<!--==============AKHIR-FOOTER================--!>
+
+
+</body>
+</html>
